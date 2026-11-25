@@ -1,0 +1,5 @@
+github_owner               = "Be4rCl4w"
+#github_app_id              = ""
+#github_app_installation_id = ""
+runner_labels              = "self-hosted,aca"
+gh_url                     = "https://github.com/Be4rCl4w/Zero-Trust-Architecture"
