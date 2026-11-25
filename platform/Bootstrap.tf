@@ -397,7 +397,7 @@ resource "terraform_data" "build_image" {
     # Ensure your local execution context is authenticated via Azure CLI (az login) before running
     command = "az acr build --registry ${azurerm_container_registry.acr.name} --image gh-runner:v1.1.0 ."
 
-    working_dir = "${path.module}/../../"
+    working_dir = "${path.module}/../"
   }
 
   depends_on = [azurerm_container_registry.acr]
